@@ -39,6 +39,97 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+# Internship Assignment Project
+
+This project is a part of an internship assignment, aiming to create a web application for discovering and exploring events. The application displays both recommended events and upcoming events, providing users with an intuitive interface to find exciting activities happening near them.
+
+## Live Demo
+
+[Live Demo](https://gyanassignment-f0i0r3qd9-thanveshs-projects.vercel.app/)
+
+## Features
+
+- **Recommended Events:** Displays recommended events with horizontal scrolling for easy browsing.
+- **Upcoming Events:** Fetches and displays upcoming events with lazy loading, enhancing performance and user experience.
+- **Responsive Design:** Optimized for both desktop and mobile browsers, ensuring seamless accessibility across devices.
+- **API Integration:** Utilizes a REST API to fetch event data, providing real-time information to users.
+- **Dynamic Content:** Renders dynamic event content, including event names, locations, dates, and thumbnail images.
+
+## Technologies Used
+
+- **Frontend Framework:** React.js
+- **HTTP Client:** Axios
+- **Lazy Loading:** Intersection Observer API
+- **Styling:** CSS
+
+## Setup and Local Development
+
+**Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+
+**Navigate to the project directory:**
+bash
+Copy code
+cd your-repository
+
+**Install dependencies:**
+bash
+Copy code
+npm install
+
+**Run the project:**
+bash
+Copy code
+npm start
+
+**Project Structure**
+css
+Copy code
+├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   ├── Header.js
+│   │   ├── Loader.js
+│   │   ├── RecommendedEvents.js
+│   │   ├── UpcomingEvents.js
+│   │   └── Location.js
+│   ├── images
+│   │   ├── Banner.svg
+│   │   ├── image1.svg
+│   │   ├── image2.svg
+│   │   ├── image3.svg
+│   │   ├── image4.svg
+│   │   ├── image5.svg
+│   │   ├── image6.svg
+│   │   └── image7.svg
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+**Design Decisions**
+**Lazy Loading:** Implemented lazy loading using the Intersection Observer API to enhance performance by loading upcoming events incrementally.
+**Component-based Architecture:** Leveraged React.js for its component-based architecture, facilitating modularity and reusability of code.
+**Responsive Design:**Ensured responsiveness across various devices and screen sizes for an optimal user experience.
+
+**API Integration**
+Integrated with the provided REST API to fetch event data dynamically, enabling real-time updates and information retrieval.
+Utilized Axios for making HTTP requests, ensuring seamless communication with the backend server.
+Future Enhancements
+**Authentication:** 
+Implement user authentication to personalize event recommendations based on user preferences.
+Filtering and Sorting: Add filtering and sorting options to allow users to refine event searches based on criteria such as location, date, and category.
+Performance Optimization: Further optimize performance through code refactoring and caching mechanisms to reduce load times and enhance scalability.
+
+**Credits**
+Event data provided by [gyangrove].
+Banner image sourced from [https://drive.google.com/file/d/1hFKPSETzU0K0U9pgcpcvoVk0XCEJxQ8k/view].
+**License**
+This project is licensed under the MIT License.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
